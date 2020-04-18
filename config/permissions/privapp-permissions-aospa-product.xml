@@ -20,10 +20,6 @@
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
 
-    <privapp-permissions package="co.aospa.facesense">
-        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
-    </privapp-permissions>
-
     <privapp-permissions package="co.aospa.hub">
         <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
         <permission name="android.permission.REBOOT"/>

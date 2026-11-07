@@ -20,6 +20,12 @@ TARGET_COMMON_QTI_COMPONENTS := \
     telephony \
     usb
 
+ifneq ($(TARGET_BUILD_VARIANT),user)
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.adb.secure=0 \
+    ro.debuggable=1
+endif
+
 # Inherit from the custom device configuration.
 $(call inherit-product, device/samsung/r8q/device.mk)
 

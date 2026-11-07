@@ -13,6 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 TARGET_BOARD_PLATFORM := kona
 TARGET_SUPPORTS_OMX_SERVICE := false
 TARGET_PROVIDES_POWERHAL := true
+AUDIO_USE_STUB_HAL := true
 TARGET_COMMON_QTI_COMPONENTS := \
     overlay \
     perf \

@@ -9,12 +9,13 @@ ifeq (aospa_r8q, $(TARGET_PRODUCT))
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit from the custom device configuration.
-$(call inherit-product, device/samsung/r8q/device.mk)
-
+# Target flags
 TARGET_SUPPORTS_OMX_SERVICE := false
 TARGET_PROVIDES_POWERHAL := true
 TARGET_COMMON_QTI_COMPONENTS := usb
+
+# Inherit from the custom device configuration.
+$(call inherit-product, device/samsung/r8q/device.mk)
 
 # Inherit from the AOSPA configuration.
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)

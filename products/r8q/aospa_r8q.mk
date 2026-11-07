@@ -16,7 +16,6 @@ TARGET_PROVIDES_POWERHAL := true
 TARGET_COMMON_QTI_COMPONENTS := \
     overlay \
     perf \
-    telephony \
     usb
 
 ifneq ($(TARGET_BUILD_VARIANT),user)

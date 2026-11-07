@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/kona.xml" />
+
+  <project path="device/samsung/r8q" name="vanadium-oss/sm8250/samsung/r8q/downstream/device" remote="gitlab" revision="seventeen" />
+  <project path="device/samsung/sm8250-common" name="vanadium-oss/sm8250/samsung/common/device" remote="gitlab" revision="seventeen" />
+  <project path="vendor/samsung/r8q" name="vanadium-oss/sm8250/samsung/r8q/downstream/vendor" remote="gitlab" revision="seventeen" />
+  <project path="vendor/samsung/sm8250-common" name="vanadium-oss/sm8250/samsung/common/vendor" remote="gitlab" revision="seventeen" />
+  <project path="kernel/samsung/sm8250" name="vanadium-oss/sm8250/samsung/common/kernel" remote="gitlab" revision="vanadium" />
+
+  <project path="hardware/samsung" name="vanadium-oss/common/hardware/samsung" remote="gitlab" revision="seventeen" />
+  <project path="hardware/samsung/nfc" name="vanadium-oss/common/hardware/nfc" remote="gitlab" revision="seventeen" />
+  <project path="hardware/samsung_slsi/nfc" name="vanadium-oss/common/hardware/slsi-nfc" remote="gitlab" revision="seventeen" />
+  <project path="hardware/qcom/display" name="vanadium-oss/sm8250/common/hardware/qcom-caf_display" remote="gitlab" revision="seventeen" />
+
+  <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" remote="github" revision="lineage-24.0" />
+  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="github" revision="lineage-24.0" />
+</manifest>

@@ -32,6 +32,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/phone2/aospa_phone2.mk \
     $(LOCAL_DIR)/porsche/aospa_porsche.mk \
     $(LOCAL_DIR)/psyche/aospa_psyche.mk \
+    $(LOCAL_DIR)/r8q/aospa_r8q.mk \
     $(LOCAL_DIR)/sky/aospa_sky.mk \
     $(LOCAL_DIR)/spes/aospa_spes.mk \
     $(LOCAL_DIR)/sunny/aospa_sunny.mk \
@@ -66,6 +67,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_phone2-userdebug \
     aospa_porsche-userdebug \
     aospa_psyche-userdebug \
+    aospa_r8q-userdebug \
     aospa_sky-userdebug \
     aospa_spes-userdebug \
     aospa_sunny-userdebug \

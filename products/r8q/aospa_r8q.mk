@@ -14,11 +14,9 @@ TARGET_BOARD_PLATFORM := kona
 TARGET_SUPPORTS_OMX_SERVICE := false
 TARGET_PROVIDES_POWERHAL := true
 TARGET_COMMON_QTI_COMPONENTS := \
-    adreno \
     audio \
     av \
     display \
-    init \
     overlay \
     perf \
     telephony \

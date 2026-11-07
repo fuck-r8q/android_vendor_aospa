@@ -10,6 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Target flags
+TARGET_BOARD_PLATFORM := kona
 TARGET_SUPPORTS_OMX_SERVICE := false
 TARGET_PROVIDES_POWERHAL := true
 TARGET_COMMON_QTI_COMPONENTS := usb

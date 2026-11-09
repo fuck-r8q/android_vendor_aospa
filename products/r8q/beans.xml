@@ -10,7 +10,7 @@
   <project path="device/samsung/sm8250-common" name="vanadium-oss/sm8250/samsung/common/device" remote="gitlab" revision="seventeen" />
   <project path="vendor/samsung/r8q" name="vanadium-oss/sm8250/samsung/r8q/downstream/vendor" remote="gitlab" revision="seventeen" />
   <project path="vendor/samsung/sm8250-common" name="vanadium-oss/sm8250/samsung/common/vendor" remote="gitlab" revision="seventeen" />
-  <project path="kernel/samsung/sm8250" name="vanadium-oss/sm8250/samsung/common/kernel" remote="gitlab" revision="vanadium" />
+  <project path="device/samsung/r8q-kernel" name="android_device_samsung_r8q-kernel" remote="fuck-r8q" revision="calcite" />
 
   <project path="hardware/samsung" name="vanadium-oss/common/hardware/samsung" remote="gitlab" revision="seventeen" />
   <project path="hardware/samsung/nfc" name="vanadium-oss/common/hardware/nfc" remote="gitlab" revision="seventeen" />
